@@ -1,0 +1,25 @@
+Requisitos:
+* Netbeans IDE 8.02
+* MySql Workbench 6.3
+* Wampserver o Xampp
+
+Pasos para importar la Base de datos a Mysql Workbench
+1. Crear tu base de datos en MySql (La BD que uso por defecto se llama EMPRESA)
+2. Click en la pestaña Data Import/Restore
+3. Luego seleccionar la opcion que dice: "Import from Self-Contained File" y busca la ruta de archivo de la base de datos .sql
+4. Luego en "Default Target Schema", seleccionan su base de datos que acaban de crear
+5. Click en el boton Start Import
+6. Por ultimo solo actualizan su base de datos
+
+Pasos para hacer correr el programa
+1. Abrir Netbeans IDE 8.02
+2. Click en "File o Archivo" y seleccionar "Open Project"
+3. Buscar la ruta del archivo JSP y lo aceptan
+4. Una vez obtenido el proyecto, desplegar la carpeta "Source Packages" > "Conexion"
+5. Luego doble click en la clase Conexion.java
+6. Configuran deacuerdo a su base de datos, tambien poner su usuario y password de su base de datos
+7. Una vez que hayan terminado de configurar su base de datos, Click derecho en el proyecto (WebApplication1) y click en "Propiedades o Properties"
+8. Seleccionar la pestaña "Run" y donde dice: "Relative URL" escribir lo siguiente --> Catalogo.jsp
+9. Por ultimo Click en OK y Listo, ahora solo ejecutan el proyecto con F6
+
+Nota: No se olviden de importar el driver de Mysql
