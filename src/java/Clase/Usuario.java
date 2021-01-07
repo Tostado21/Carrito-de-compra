@@ -5,10 +5,6 @@
  */
 package Clase;
 
-/**
- *
- * @author Daniel
- */
 public class Usuario {
     private String CodigoUsuario;
     private String NombreUsuario;

@@ -5,10 +5,7 @@
  */
 package Clase;
 
-/**
- *
- * @author Daniel
- */
+
 public class Provincia {
     private int CodigoDepart;
     private int CodigoProv;

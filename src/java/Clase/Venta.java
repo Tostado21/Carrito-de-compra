@@ -4,10 +4,7 @@
  * and open the template in the editor.
  */
 package Clase;
-/**
- *
- * @author Daniel
- */
+
 public class Venta {
     private String CodigoVenta;
     private String CodigoCliente;

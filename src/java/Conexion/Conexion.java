@@ -5,10 +5,7 @@
  */
 package Conexion;
 import java.sql.*;
-/**
- *
- * @author Daniel
- */
+
 public class Conexion {
     Connection conectar = null;
     

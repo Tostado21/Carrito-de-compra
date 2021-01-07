@@ -7,10 +7,7 @@ package Clase;
 import java.sql.*;
 import java.util.*;
 import Conexion.Conexion;
-/**
- *
- * @author Daniel
- */
+
 public class Provincia_DB {
     public static List<Provincia> ListarProvinciaPorCodigo(String CodigoDepart){
         List<Provincia> lista = new ArrayList<Provincia>();

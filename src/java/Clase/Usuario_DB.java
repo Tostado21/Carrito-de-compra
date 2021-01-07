@@ -8,10 +8,7 @@ import java.sql.*;
 import Conexion.Conexion;
 import java.util.*;
 
-/**
- *
- * @author Daniel
- */
+
 public class Usuario_DB {
     
     public static Usuario VerificarUsuario(String id_usuario){

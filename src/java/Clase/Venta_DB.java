@@ -7,10 +7,7 @@ package Clase;
 import java.sql.*;
 import java.util.*;
 import Conexion.Conexion;
-/**
- *
- * @author Daniel
- */
+
 public class Venta_DB {
     public static boolean insertarVenta(Venta v){
         boolean resp = false;

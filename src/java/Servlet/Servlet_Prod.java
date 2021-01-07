@@ -13,15 +13,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import Clase.*;
-import Conexion.Conexion;
-import java.sql.*;
 import java.text.*;
 import java.util.*;
 import javax.servlet.http.HttpSession;
-/**
- *
- * @author Daniel
- */
+
 public class Servlet_Prod extends HttpServlet {
 
     /**
